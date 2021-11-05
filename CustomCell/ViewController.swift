@@ -31,6 +31,10 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
         let cell = tableViewOutlet.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! MyCustomCell
         cell.firstNameLabelOutlet.text = students[indexPath.row].first
         cell.lastNameLabelOutlet.text = students[indexPath.row].last
+        cell.idLabelOutlet.text = students[indexPath.row].id
+        cell.lunchLabelOutlet.text = String(students[indexPath.row].lunch)
+        cell.animalLabelOutlet.text = students[indexPath.row].favAnimal
+        
         return cell
     }
 
