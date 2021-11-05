@@ -14,6 +14,8 @@
 		B607987727355B130074859C /* CustomCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B607987527355B130074859C /* CustomCell.xcdatamodeld */; };
 		B607987927355B150074859C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B607987827355B150074859C /* Assets.xcassets */; };
 		B607987C27355B150074859C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B607987A27355B150074859C /* LaunchScreen.storyboard */; };
+		B607988427355BDE0074859C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = B607988327355BDE0074859C /* Student.swift */; };
+		B607988627355F2F0074859C /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B607988527355F2F0074859C /* MyCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B607987827355B150074859C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B607987B27355B150074859C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B607987D27355B150074859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B607988327355BDE0074859C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		B607988527355F2F0074859C /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				B607986C27355B130074859C /* AppDelegate.swift */,
 				B607986E27355B130074859C /* SceneDelegate.swift */,
 				B607987027355B130074859C /* ViewController.swift */,
+				B607988327355BDE0074859C /* Student.swift */,
 				B607987227355B130074859C /* Main.storyboard */,
+				B607988527355F2F0074859C /* MyCustomCell.swift */,
 				B607987827355B150074859C /* Assets.xcassets */,
 				B607987A27355B150074859C /* LaunchScreen.storyboard */,
 				B607987D27355B150074859C /* Info.plist */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B607988627355F2F0074859C /* MyCustomCell.swift in Sources */,
 				B607987127355B130074859C /* ViewController.swift in Sources */,
 				B607986D27355B130074859C /* AppDelegate.swift in Sources */,
 				B607987727355B130074859C /* CustomCell.xcdatamodeld in Sources */,
+				B607988427355BDE0074859C /* Student.swift in Sources */,
 				B607986F27355B130074859C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
